@@ -18,3 +18,7 @@ There's a file called [request.xml](./request.xml) in the root folder of this pr
 To test the application, use the following command:
 
     curl --header "content-type: text/xml" -d @request.xml http://localhost:8080/ws    
+
+## WSDL Location.
+
+The WSDL file can be found at <http://localhost:8080/ws/countries.wsdl>
